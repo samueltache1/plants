@@ -1,0 +1,11 @@
+# Example configuration file
+irrigation:
+  soil_moisture_threshold: 30
+  duration_minutes: 5
+  schedule_times:
+    - "06:00"
+    - "18:00"
+
+compost:
+  brew_interval_days: 14
+  brew_duration_hours: 48
